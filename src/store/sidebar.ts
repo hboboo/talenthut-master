@@ -5,7 +5,6 @@ export const useSidebarStore = defineStore('sidebar', () => {
   const collapse = ref(false)
   function handleCollapse() {
     collapse.value = !collapse.value
-    console.log(collapse.value);
   }
 
   return { collapse, handleCollapse}
